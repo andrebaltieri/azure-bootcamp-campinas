@@ -78,7 +78,6 @@
                     <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#agenda">Agenda</a></li>
-                        <li><a href="#palestrantes">Palestrantes</a></li>
                         <li><a href="#parceiros">Patrocinadores</a></li>
                         <li><a href="#sobre">Eventos Anteriores</a></li>
                     </ul>
@@ -211,7 +210,7 @@
                                     <h6><i class="fa fa-angle-right"></i> Onde e quando vai ser o evento? </h6>
                                     <div>
                                         <div class="content">
-                                            <p>Campinas, SP - Local à definir</p>
+                                            <p>O evento será realizado nas dependências da <strong>CI&T</strong>, localizado no Prédio 23A Pólis de Tecnologia R. Dr. Ricardo Benetton Martins, s/n Bosque das Palmeiras, 902, Campinas - SP</p>
                                         </div>
                                     </div>
 
@@ -239,6 +238,15 @@
                         <div class="main_service roomy-100">
                             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                                 <div class="head_title text-center">
+                                    <h2>Local</h2>
+                                    <div class="separator_auto"></div>
+                                    <p>O evento será realizado nas dependências da <strong>CI&T</strong>, localizado no Prédio 23A Pólis de Tecnologia R. Dr. Ricardo Benetton Martins, s/n Bosque das Palmeiras, 902, Campinas - SP</p>
+                                </div>
+                            </div>
+
+                            
+                            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                                <div class="head_title text-center">
                                     <h2>Agenda</h2>
                                     <div class="separator_auto"></div>
                                     <p>Grade sujeita a mudança sem prévio aviso</p>
@@ -247,7 +255,7 @@
 
                             <div class="container">
                                 <div class="row">
-                                    <article class="col-md-6 center">
+                                    <article class="col-md-8 center">
                                         <table class="table table-hover text-center">
                                             <thead>
                                                 <tr>
@@ -266,23 +274,59 @@
                                                     <td>
                                                         <time class="time-theme ng-binding" ng-bind="item.time">9:00 - 9:30</time>
                                                     </td>
-                                                    <td class="ng-binding">PATROCINADOR 1</td>
+                                                    <td class="ng-binding">Keynote e Abertura</td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <time class="time-theme ng-binding" ng-bind="item.time">12:00 - 13:00</time>
+                                                        <time class="time-theme ng-binding" ng-bind="item.time">9:30 - 10:30</time>
+                                                    </td>
+                                                    <td class="ng-binding"> Integrando Cloud Based Load Testing ao seu Pipeline de DevOps <br><strong>André Dias</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <time class="time-theme ng-binding" ng-bind="item.time">10:30 - 11:30</time>
+                                                    </td>
+                                                    <td class="ng-binding">Do monolítico aos Micro Serviços no Azure <br><strong>André Baltieri</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <time class="time-theme ng-binding" ng-bind="item.time">11:30 - 12:00</time>
+                                                    </td>
+                                                    <td class="ng-binding">CI&T <br> <small>Espaço Patrocinado</small></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <time class="time-theme ng-binding" ng-bind="item.time">11:30 - 13:00</time>
                                                     </td>
                                                     <td class="ng-binding">ALMOÇO <br> <small>por conta do participante</small></td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <time class="time-theme ng-binding" ng-bind="item.time">15:00 - 15:30</time>
+                                                        <time class="time-theme ng-binding" ng-bind="item.time">13:00 - 14:00</time>
                                                     </td>
-                                                    <td class="ng-binding">PATROCINADOR 2</td>
+                                                    <td class="ng-binding">NoSQL com DocumentDB no Microsoft Azure <br><strong>Roberto Fonseca</strong></td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <time class="time-theme ng-binding" ng-bind="item.time">16:30 - 17:00</time>
+                                                        <time class="time-theme ng-binding" ng-bind="item.time">14:00 - 15:00</time>
+                                                    </td>
+                                                    <td class="ng-binding">Escalando a sua aplicação com Azure Functions <br><strong>José Roberto/Gustavo Fontes</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <time class="time-theme ng-binding" ng-bind="item.time">15:00 - 15:30</time>
+                                                    </td>
+                                                    <td class="ng-binding">COFFEE BREAK <br> <small></small></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <time class="time-theme ng-binding" ng-bind="item.time">15:30 - 16:00</time>
+                                                    </td>
+                                                    <td class="ng-binding">Ask the Experts <br><strong>Todos</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <time class="time-theme ng-binding" ng-bind="item.time">16:00 - 16:30</time>
                                                     </td>
                                                     <td class="ng-binding">ENCERRAMENTO</td>
                                                 </tr>
@@ -355,216 +399,6 @@
 
         <hr>
 
-        <section id="palestrantes" class="section">
-
-            <div class="container">
-                <div class="row text-center">
-
-                    <div class="main_featured m-top-100">
-                        <div class="col-sm-12">
-                            <div class="head_title text-center">
-                                <h2>Palestrantes</h2>
-                                <div class="separator_auto"></div>
-                                <p>Os melhores palestrantes do país</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 ng-scope" ng-repeat="speaker in vm.speakers">
-                        <div class="">
-                            <div class="pricing_circle"><img src="assets/images/palestrantes/palestrante.png" alt="Palestrante"></div>
-                            <div class="col-xs-12 twelvecol up_fade animated fadeInUp text-center" ng-show="speaker.social.length">
-                                <ul class="footer_social fade_in animated fadeIn list-inline">
-                                    <li ng-repeat="sm in speaker.social" class="ng-scope">
-                                        <a href="" target="_blank"><i class="fa fa-rss"></i></a>
-                                    </li>
-
-                                    <li ng-repeat="sm in speaker.social" class="ng-scope">
-                                        <a href="" target="_blank"><i class="fa fa-twitter"></i></a>
-                                    </li>
-
-                                    <li ng-repeat="sm in speaker.social" class="ng-scope">
-                                        <a href="" target="_blank"><i class="fa fa-github"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <table class="table borderless">
-                                <tbody>
-                                    <tr>
-                                        <td ng-bind="speaker.name" class="ng-binding">André Baltieri</td>
-                                    </tr>
-                                    <tr>
-                                        <td ng-bind="speaker.description" class="ng-binding">Microsoft MVP</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 ng-scope" ng-repeat="speaker in vm.speakers">
-                        <div class="">
-                            <div class="pricing_circle"><img src="assets/images/palestrantes/palestrante.png" alt="Palestrante"></div>
-                            <div class="col-xs-12 twelvecol up_fade animated fadeInUp text-center" ng-show="speaker.social.length">
-                                <ul class="footer_social fade_in animated fadeIn list-inline">
-                                    <li ng-repeat="sm in speaker.social" class="ng-scope">
-                                        <a href="" target="_blank"><i class="fa fa-rss"></i></a>
-                                    </li>
-
-                                    <li ng-repeat="sm in speaker.social" class="ng-scope">
-                                        <a href="" target="_blank"><i class="fa fa-twitter"></i></a>
-                                    </li>
-
-                                    <li ng-repeat="sm in speaker.social" class="ng-scope">
-                                        <a href="" target="_blank"><i class="fa fa-github"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <table class="table borderless">
-                                <tbody>
-                                    <tr>
-                                        <td ng-bind="speaker.name" class="ng-binding">André Dias</td>
-                                    </tr>
-                                    <tr>
-                                        <td ng-bind="speaker.description" class="ng-binding">Microsoft MVP</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 ng-scope" ng-repeat="speaker in vm.speakers">
-                        <div class="">
-                            <div class="pricing_circle"><img src="assets/images/palestrantes/palestrante.png" alt="Palestrante"></div>
-                            <div class="col-xs-12 twelvecol up_fade animated fadeInUp text-center" ng-show="speaker.social.length">
-                                <ul class="footer_social fade_in animated fadeIn list-inline">
-                                    <li ng-repeat="sm in speaker.social" class="ng-scope">
-                                        <a href="" target="_blank"><i class="fa fa-rss"></i></a>
-                                    </li>
-
-                                    <li ng-repeat="sm in speaker.social" class="ng-scope">
-                                        <a href="" target="_blank"><i class="fa fa-twitter"></i></a>
-                                    </li>
-
-                                    <li ng-repeat="sm in speaker.social" class="ng-scope">
-                                        <a href="" target="_blank"><i class="fa fa-github"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <table class="table borderless">
-                                <tbody>
-                                    <tr>
-                                        <td ng-bind="speaker.name" class="ng-binding">Gustavo Fontes</td>
-                                    </tr>
-                                    <tr>
-                                        <td ng-bind="speaker.description" class="ng-binding">Desenvolvedor Backend</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 ng-scope" ng-repeat="speaker in vm.speakers">
-                        <div class="">
-                            <div class="pricing_circle"><img src="assets/images/palestrantes/palestrante.png" alt="Palestrante"></div>
-                            <div class="col-xs-12 twelvecol up_fade animated fadeInUp text-center" ng-show="speaker.social.length">
-                                <ul class="footer_social fade_in animated fadeIn list-inline">
-                                    <li ng-repeat="sm in speaker.social" class="ng-scope">
-                                        <a href="" target="_blank"><i class="fa fa-rss"></i></a>
-                                    </li>
-
-                                    <li ng-repeat="sm in speaker.social" class="ng-scope">
-                                        <a href="" target="_blank"><i class="fa fa-twitter"></i></a>
-                                    </li>
-
-                                    <li ng-repeat="sm in speaker.social" class="ng-scope">
-                                        <a href="" target="_blank"><i class="fa fa-github"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <table class="table borderless">
-                                <tbody>
-                                    <tr>
-                                        <td ng-bind="speaker.name" class="ng-binding">José Roberto Araújo</td>
-                                    </tr>
-                                    <tr>
-                                        <td ng-bind="speaker.description" class="ng-binding">Arquiteto de Software</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 ng-scope" ng-repeat="speaker in vm.speakers">
-                        <div class="">
-                            <div class="pricing_circle"><img src="assets/images/palestrantes/palestrante.png" alt="Palestrante"></div>
-                            <div class="col-xs-12 twelvecol up_fade animated fadeInUp text-center" ng-show="speaker.social.length">
-                                <ul class="footer_social fade_in animated fadeIn list-inline">
-                                    <li ng-repeat="sm in speaker.social" class="ng-scope">
-                                        <a href="" target="_blank"><i class="fa fa-rss"></i></a>
-                                    </li>
-
-                                    <li ng-repeat="sm in speaker.social" class="ng-scope">
-                                        <a href="" target="_blank"><i class="fa fa-twitter"></i></a>
-                                    </li>
-
-                                    <li ng-repeat="sm in speaker.social" class="ng-scope">
-                                        <a href="" target="_blank"><i class="fa fa-github"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <table class="table borderless">
-                                <tbody>
-                                    <tr>
-                                        <td ng-bind="speaker.name" class="ng-binding">Palestrante</td>
-                                    </tr>
-                                    <tr>
-                                        <td ng-bind="speaker.description" class="ng-binding">Descrição do palestrante</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 ng-scope" ng-repeat="speaker in vm.speakers">
-                        <div class="">
-                            <div class="pricing_circle"><img src="assets/images/palestrantes/palestrante.png" alt="Palestrante"></div>
-                            <div class="col-xs-12 twelvecol up_fade animated fadeInUp text-center" ng-show="speaker.social.length">
-                                <ul class="footer_social fade_in animated fadeIn list-inline">
-                                    <li ng-repeat="sm in speaker.social" class="ng-scope">
-                                        <a href="" target="_blank"><i class="fa fa-rss"></i></a>
-                                    </li>
-
-                                    <li ng-repeat="sm in speaker.social" class="ng-scope">
-                                        <a href="" target="_blank"><i class="fa fa-twitter"></i></a>
-                                    </li>
-
-                                    <li ng-repeat="sm in speaker.social" class="ng-scope">
-                                        <a href="" target="_blank"><i class="fa fa-github"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <table class="table borderless">
-                                <tbody>
-                                    <tr>
-                                        <td ng-bind="speaker.name" class="ng-binding">Palestrante</td>
-                                    </tr>
-                                    <tr>
-                                        <td ng-bind="speaker.description" class="ng-binding">Descrição do palestrante</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <br>
-            <br>
-            <br>
-        </section>
-
-        <hr>
 
         <section id="parceiros" class="cbrand">
             <div class="container">
@@ -603,55 +437,6 @@
                             <a href="https://www.facebook.com/SoftwareEmContexto/" title="Software em Contexto" target="_blank"><img src="assets/images/patrocinadores/softwareemcontexto.jpg" alt="Software em Contexto" /></a>
                         </div>
                     </div>
-
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="cbrand_item m-bottom-10">
-                            <a href=" " title=" " target="_blank"><img src="assets/images/patrocinadores/patrocinador.png" alt=" " /></a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="cbrand_item m-bottom-10">
-                            <a href=" " title=" " target="_blank"><img src="assets/images/patrocinadores/patrocinador.png" alt=" " /></a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="cbrand_item m-bottom-10">
-                            <a href=" " title=" " target="_blank"><img src="assets/images/patrocinadores/patrocinador.png" alt=" " /></a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="cbrand_item m-bottom-10">
-                            <a href=" " title=" " target="_blank"><img src="assets/images/patrocinadores/patrocinador.png" alt=" " /></a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="cbrand_item m-bottom-10">
-                            <a href=" " title=" " target="_blank"><img src="assets/images/patrocinadores/patrocinador.png" alt=" " /></a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="cbrand_item m-bottom-10">
-                            <a href=" " title=" " target="_blank"><img src="assets/images/patrocinadores/patrocinador.png" alt=" " /></a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="cbrand_item m-bottom-10">
-                            <a href=" " title=" " target="_blank"><img src="assets/images/patrocinadores/patrocinador.png" alt=" " /></a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="cbrand_item m-bottom-10">
-                            <a href=" " title=" " target="_blank"><img src="assets/images/patrocinadores/patrocinador.png" alt=" " /></a>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </section>
